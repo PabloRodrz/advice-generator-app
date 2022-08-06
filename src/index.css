@@ -29,6 +29,9 @@ html, body {
   width: 45%;
   height: 55%;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media only screen and (max-width: 412px) {
@@ -36,6 +39,10 @@ html, body {
     width: 80%;
     height: 60%;
   }
+}
+
+.getadvice{
+  color: hsl(193, 38%, 86%);;
 }
 
 .advice{
@@ -80,7 +87,7 @@ html, body {
 
 .btn{ 
   position: absolute;
-  bottom: -50px;
+  bottom: -35px;
   border-color: hsl(150, 100%, 66%);
   border-radius: 50%;
   border-width: 20px;  
