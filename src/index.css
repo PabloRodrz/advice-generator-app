@@ -35,7 +35,7 @@ body {
   align-items: center;
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 800px) {
   .advices {
     width: 80%;
     height: 60%;
@@ -48,6 +48,9 @@ body {
   .advice>h4 {
     font-size: 10px !important;
   }
+  .getadvice{
+    font-size: 20px;
+  }
 }
 
 
@@ -55,7 +58,7 @@ body {
 
 .getadvice {
   color: hsl(193, 38%, 86%);
-  ;
+  font-size: 28px;
 }
 
 .advice {
