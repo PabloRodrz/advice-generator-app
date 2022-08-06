@@ -6,13 +6,14 @@
   padding: 0px;
 }
 
-html, body {
+html,
+body {
   background-color: hsl(218, 23%, 16%);
   font-family: 'Manrope', sans-serif;
   height: 100%;
 }
 
-#root{
+#root {
   height: 100%;
 }
 
@@ -23,8 +24,8 @@ html, body {
   justify-content: center;
 }
 
-.advices{
-  background-color:hsl(217, 19%, 24%);
+.advices {
+  background-color: hsl(217, 19%, 24%);
   border-radius: 4%;
   width: 45%;
   height: 55%;
@@ -35,71 +36,83 @@ html, body {
 }
 
 @media only screen and (max-width: 320px) {
-  .advices{
+  .advices {
     width: 80%;
     height: 60%;
   }
+
+  .advice>h3 {
+    font-size: 20px !important;
+  }
+
+  .advice>h4 {
+    font-size: 10px !important;
+  }
 }
 
-.getadvice{
-  color: hsl(193, 38%, 86%);;
+
+
+
+.getadvice {
+  color: hsl(193, 38%, 86%);
+  ;
 }
 
-.advice{
+.advice {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
 
-.loading{
+.loading {
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  color:  hsl(193, 38%, 86%);
+  color: hsl(193, 38%, 86%);
 }
 
-.advice > *{
+.advice>* {
   margin: 1rem;
 }
 
-.advice>h3{
+.advice>h3 {
   font-size: 28px;
   color: hsl(193, 38%, 86%);
   text-align: center;
   width: 80%;
 }
 
-.advice>h4{
+.advice>h4 {
   font-size: 14px;
   font-weight: bold;
   color: hsl(150, 100%, 66%);
   letter-spacing: 4px;
 }
 
-.underline{
+.underline {
   width: 80%;
 }
 
 
-.btn{ 
+.btn {
   position: absolute;
   bottom: -35px;
   border-color: hsl(150, 100%, 66%);
   border-radius: 50%;
-  border-width: 20px;  
+  border-width: 20px;
   border-style: solid;
   transition: .5s;
 }
 
-.btn:hover{
+.btn:hover {
   cursor: pointer;
   box-shadow: 0 0 25px hsl(155, 105%, 71%);
 }
 
-.btn-diceimg{
-  display:flex;
+.btn-diceimg {
+  display: flex;
   background-color: hsl(150, 100%, 66%);
 }
