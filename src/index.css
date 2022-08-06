@@ -34,7 +34,7 @@ html, body {
   align-items: center;
 }
 
-@media only screen and (max-width: 412px) {
+@media only screen and (max-width: 320px) {
   .advices{
     width: 80%;
     height: 60%;
