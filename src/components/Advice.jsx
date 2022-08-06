@@ -5,7 +5,6 @@ import mobileUnderline from '../images/pattern-divider-mobile.svg'
 const Advice = () => {
   const [isLoading, setIsLoading] = useState(true)
   const [advices, setAdvices] = useState({})
-  console.log("render")
   const newAdvice = () => {
     setIsLoading(true)
     fetch("https://api.adviceslip.com/advice?t=" + Math.random())
